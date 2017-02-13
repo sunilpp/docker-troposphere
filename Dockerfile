@@ -1,4 +1,4 @@
-FROM 2.7.13-wheezy
+FROM python:2.7.13-wheezy
 MAINTAINER Larry Liang <ptolemy428@gmail.com>
 
 RUN pip install troposphere \
