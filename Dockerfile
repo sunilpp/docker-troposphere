@@ -8,7 +8,8 @@ RUN pip install troposphere \
                 flake8 \
                 autoflake \
                 awscli \
-                codeclimate-test-reporter
+                codeclimate-test-reporter \
+                rainbow_logging_handler
 
 RUN mkdir -p /usr/src/app
 
