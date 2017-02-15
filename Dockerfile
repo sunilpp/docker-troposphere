@@ -7,7 +7,8 @@ RUN pip install troposphere \
                 yapf==0.11.0 \
                 flake8 \
                 autoflake \
-                awscli
+                awscli \
+                codeclimate-test-reporter
 
 RUN mkdir -p /usr/src/app
 
